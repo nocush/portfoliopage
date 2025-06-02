@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfoliopage/static/css/main.404b30c0.css",
+    "main.js": "/portfoliopage/static/js/main.e1307bd5.js",
+    "static/js/453.ace21015.chunk.js": "/portfoliopage/static/js/453.ace21015.chunk.js",
+    "static/media/colorswap.gif": "/portfoliopage/static/media/colorswap.b5748f296dbfc7e90609.gif",
+    "static/media/icecreamstore.gif": "/portfoliopage/static/media/icecreamstore.f07175c289ca7fadd710.gif",
+    "static/media/engineer.png": "/portfoliopage/static/media/engineer.31cd58c880ae90ec2b75.png",
+    "static/media/website.png": "/portfoliopage/static/media/website.9bd360a6125750fe1a83.png",
+    "static/media/cslogo.png": "/portfoliopage/static/media/cslogo.7f7159aad7bc573d9ddf.png",
+    "static/media/banner2.png": "/portfoliopage/static/media/banner2.f695d662af7c3291c061.png",
+    "static/media/tslogo.png": "/portfoliopage/static/media/tslogo.16b157ea18cd87601675.png",
+    "static/media/swiftuilogo.png": "/portfoliopage/static/media/swiftuilogo.52a267111e7c36b0c5ca.png",
+    "static/media/contact-us.png": "/portfoliopage/static/media/contact-us.5f9105cefe3900f2498d.png",
+    "static/media/reactlogo.webp": "/portfoliopage/static/media/reactlogo.2e3fbe07d85883e48b1d.webp",
+    "static/media/linkedin-icon.png": "/portfoliopage/static/media/linkedin-icon.500ca075900d92dfd295.png",
+    "static/media/revicons.eot": "/portfoliopage/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfoliopage/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/github-icon.png": "/portfoliopage/static/media/github-icon.f44c59c62161a741650f.png",
+    "static/media/phone-icon.png": "/portfoliopage/static/media/phone-icon.a2b86a07ee245dcc9ef7.png",
+    "static/media/javalogo.webp": "/portfoliopage/static/media/javalogo.4d6998b871ac8fb6c501.webp",
+    "static/media/revicons.woff": "/portfoliopage/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/dockerlogo.webp": "/portfoliopage/static/media/dockerlogo.9691c2e4abae1394d348.webp",
+    "index.html": "/portfoliopage/index.html",
+    "main.404b30c0.css.map": "/portfoliopage/static/css/main.404b30c0.css.map",
+    "main.e1307bd5.js.map": "/portfoliopage/static/js/main.e1307bd5.js.map",
+    "453.ace21015.chunk.js.map": "/portfoliopage/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.404b30c0.css",
+    "static/js/main.e1307bd5.js"
+  ]
+}
