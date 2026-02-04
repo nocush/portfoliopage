@@ -1,0 +1,120 @@
+.menu{
+    padding: 20px;
+}
+.menu-collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+nav.navbar{
+    font-family: 'Libre Franklin', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: background-color 0.2s ease-in-out;
+}
+nav.navbar.scrolled{
+    background-color: #121212 !important;
+    padding: 0px 0;
+}
+
+nav.navbar .navbar-brand{
+    font-family: 'Poetsen One', sans-serif;
+    font-size: 28px;
+
+}
+nav.navbar a,
+nav.navbar .navbar-brand,
+nav.navbar .navbar-toggler,
+nav.navbar .nav-link{
+    color:#fff !important;
+    opacity: 0.75;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+nav.navbar .nav-link:hover{
+    color: #bbb !important;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active{
+    opacity: 1;
+}
+
+.social-icon a img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: #121212;
+    border-radius: 50%;
+}
+
+.social-icon a img:hover{
+    transform: scale(1.5);
+
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link{
+    position: relative;
+    color: #fff !important;
+    padding: 8px 0;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0%;
+    height:2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+nav.navbar .navbar-collapse button {
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+nav.navbar .navbar-collapse button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #fff;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+nav.navbar .navbar-collapse button:hover::before {
+    width: 100%;
+}
+
+nav.navbar .navbar-collapse button:hover {
+    color: #121212;
+}
